@@ -67,7 +67,7 @@ static void expand_percent_expression(e2fsck_t ctx, char ch,
 				      struct string *s, int *flags)
 {
 	struct tm	*tm = NULL, tm_struct;
-	struct passwd	*pw = NULL, pw_struct;
+	struct passwd	*pw = NULL;
 	char		*cp;
 	char		buf[256];
 
